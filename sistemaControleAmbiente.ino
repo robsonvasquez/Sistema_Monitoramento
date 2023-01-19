@@ -8,14 +8,14 @@ const char* password = "senha da sua rede";
 
 ESP8266WebServer server(80); //server na porta 80
 
-#define DHTPIN 4 //Pino digital D2 (GPIO5) conectado ao DHT11
-#define DHTTYPE DHT22 //Tipo do sensor DHT11
+#define DHTPIN 4 //Pino digital D2 (GPIO5) conectado ao DHT22
+#define DHTTYPE DHT22 //Tipo do sensor DHT22
 
-#define DHT1PIN 5 //Pino digital D2 (GPIO5) conectado ao DHT11
-#define DHT1TYPE DHT22 //Tipo do sensor DHT11
+#define DHT1PIN 5 //Pino digital D2 (GPIO5) conectado ao DHT22
+#define DHT1TYPE DHT22 //Tipo do sensor DHT22
 
 #define DHT2PIN 2 //Pino digital D2 (GPIO5) conectado ao DHT11
-#define DHT2TYPE DHT22 //Tipo do sensor DHT11
+#define DHT2TYPE DHT22 //Tipo do sensor DHT22
 
 DHT dht_ambiente(DHTPIN, DHTTYPE); //Inicializando o objeto dht do tipo DHT passando como parâmetro o pino (DHTPIN) e o tipo do sensor (DHTTYPE)
 float temp_ambiente; //variável para armazenar a temperatura
