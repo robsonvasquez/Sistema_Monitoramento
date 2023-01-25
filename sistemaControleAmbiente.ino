@@ -105,6 +105,7 @@ void setup() {
 
 void loop() {
   server.handleClient(); //Chama o método handleClient()
+  handle_OnConnect(); //Chama a função handle_OnConnect()
 }
 
 void handle_OnConnect() {
